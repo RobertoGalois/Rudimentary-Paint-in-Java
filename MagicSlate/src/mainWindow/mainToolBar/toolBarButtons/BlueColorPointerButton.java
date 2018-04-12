@@ -9,8 +9,8 @@ public class BlueColorPointerButton extends JButton
 	{
 		super();
 		
-		//this.setIcon(new ImageIcon("./Pictures/Icons/blueButtonIcon.png"));
-		this.setIcon(new ImageIcon(this.getClass().getResource("/Pictures/Icons/blueButtonIcon.png")));
+		this.setIcon(new ImageIcon("./Pictures/Icons/blueButtonIcon.png"));
+		//this.setIcon(new ImageIcon(this.getClass().getResource("/Pictures/Icons/blueButtonIcon.png")));
 
 		this.setToolTipText("Peinture de couleur BLEUE");
 	}
